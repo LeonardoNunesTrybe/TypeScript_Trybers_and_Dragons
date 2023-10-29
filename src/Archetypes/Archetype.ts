@@ -11,15 +11,15 @@ abstract class Archetype {
     this._cost = 0;
   }
 
-  public get name(): string {
+  get name(): string {
     return this._name;
   }
 
-  public get special(): number {
+  get special(): number {
     return this._special;
   }
 
-  public get cost(): number {
+  get cost(): number {
     return this._cost;
   }
 
